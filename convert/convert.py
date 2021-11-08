@@ -1,7 +1,7 @@
 import json
 
 # load data
-data = json.load(open("../data/nobel-laureates.json", "r"))
+data = json.load(open("/home/cs143/data/nobel-laureates.json", "r"))
 
 PNp= open('PersonName.del','w')
 ONp= open('OrgName.del','w')
